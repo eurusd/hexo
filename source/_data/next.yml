@@ -1,0 +1,112 @@
+# =============================================================================
+# NexT Theme configuration
+# =============================================================================
+# when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
+menu:
+  home: /
+  #categories: /categories
+  archives: /archives
+  tags: /tags
+  about: /about
+  #commonweal: /404.html
+
+# Place your favicon.ico to /source directory.
+favicon: /favicon.ico
+
+# Set default keywords (Use a comma to separate)
+keywords: "EURUSD,EUR/USD,欧元/美元,欧元兑美元,外汇分析,波段交易"
+
+# Schemes
+#scheme: Pisces
+scheme: Mist
+
+# Sidebar, available value:
+#  - post    expand on posts automatically. Default.
+#  - always  expand for all pages automatically
+#  - hide    expand only when click on the sidebar toggle icon.
+#sidebar: post
+#sidebar: always
+sidebar: hide
+
+# Automatically Excerpt
+#auto_excerpt:
+  #enable: true
+  #length: 150
+
+# 多说帐号
+duoshuo_shortname: eurusd
+
+# 多说 分享服务（必须启用多说）
+duoshuo_share: true
+
+#disqus_shortname: eurusdcn
+
+## 多说热评文章 
+duoshuo_hotartical: false
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info:
+  ua_enable: true
+  admin_enable: true
+  user_id: 5106199
+  admin_nickname: 博主
+
+# 百度分享左侧菜单栏，关闭则设置为 false
+## 若想要自定义可以参考官网http://share.baidu.com/，修改theme/next/layout/_scripts/baidushare.swig
+baidushare: false
+
+# JiaThis 分享服务
+#jiathis: true
+
+# 头象
+avatar: http://eurusd.qiniudn.com/liu.jpg
+
+# 社交链接，将在侧栏中显示
+#social:
+  #数据: http://sj.eurusd.cn
+  #行情: http://fx.eurusd.cn
+  #论坛: http://bbs.eurusd.cn
+  #视频: http://www.youku.com/show_page/id_za086d08263f011e4abda.html
+
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
+
+
+# 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
+baidu_analytics: c6d8e9e82ffb01b38f760c424804a16a
+
+# 站点起始时间
+since: 2000
+
+sitemap:
+  path: sitemap.xml
+
+# Swiftype Search Key
+swiftype_key: sQvg8Gucsivs8xjnSVsq
+
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: true
+  app_id: 07LyzviCCsG3FesnInayKkNQ
+  app_key: UTDFzniQnN3JvTXOIxMPjGAD
+
+# Use Lato font
+use_font_lato: true
+
+# Social Icons
+social_icons:
+  enable: true
+  # Icon Mappings
+  行情: 
+  论坛: 
+  数据: 
+
+# =============================================================================
+# End NexT Theme configuration
+# =============================================================================
