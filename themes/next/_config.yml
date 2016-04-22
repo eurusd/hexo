@@ -127,12 +127,15 @@ font:
 #   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
+  enable: false
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  数据: 
+  行情: 
+  论坛: 
 
 
 # Sidebar Avatar
@@ -141,7 +144,7 @@ social_icons:
 #avatar:
 
 
-# Table Of Ccontents in the Sidebar
+# Table Of Contents in the Sidebar
 toc:
   enable: true
 

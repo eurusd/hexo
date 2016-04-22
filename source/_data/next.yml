@@ -64,12 +64,19 @@ baidushare: false
 avatar: http://eurusd.qiniudn.com/liu.jpg
 
 # 社交链接，将在侧栏中显示
-#social:
-  #数据: http://sj.eurusd.cn
-  #行情: http://fx.eurusd.cn
-  #论坛: http://bbs.eurusd.cn
+social:
+  数据: http://sj.eurusd.cn
+  行情: http://fx.eurusd.cn
+  论坛: http://bbs.eurusd.cn
   #视频: http://www.youku.com/show_page/id_za086d08263f011e4abda.html
 
+# Social Icons
+social_icons:
+  enable: false
+  # Icon Mappings
+  行情: 
+  论坛: 
+  数据: 
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -99,14 +106,17 @@ leancloud_visitors:
 # Use Lato font
 use_font_lato: true
 
-# Social Icons
-social_icons:
-  enable: true
-  # Icon Mappings
-  行情: 
-  论坛: 
-  数据: 
 
+# Donate 文章末尾显示打赏按钮
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: http://eurusd.qiniudn.com/wx.jpg
+alipay: http://eurusd.qiniudn.com/zfb.jpg
+
+# Automatically Excerpt. Not recommand.
+# Please use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enable: true
+  length: 150
 # =============================================================================
 # End NexT Theme configuration
 # =============================================================================
