@@ -112,10 +112,10 @@ reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作�
 wechatpay: http://eurusd.qiniudn.com/wx.jpg
 alipay: http://eurusd.qiniudn.com/zfb.jpg
 
-# Automatically Excerpt. Not recommand.
+# Automatically Excerpt. Not recommand. false true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: true
+  enable: false
   length: 150
 # =============================================================================
 # End NexT Theme configuration
