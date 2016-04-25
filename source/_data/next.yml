@@ -4,7 +4,7 @@
 # when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   archives: /archives
   tags: /tags
   about: /about
@@ -65,9 +65,10 @@ avatar: http://eurusd.qiniudn.com/liu.jpg
 
 # 社交链接，将在侧栏中显示
 social:
-  数据: http://sj.eurusd.cn
   行情: http://fx.eurusd.cn
   论坛: http://bbs.eurusd.cn
+  数据: http://sj.eurusd.cn
+  #数据2: http://sj2.eurusd.cn
   #视频: http://www.youku.com/show_page/id_za086d08263f011e4abda.html
 
 # Social Icons
@@ -111,6 +112,7 @@ use_font_lato: true
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 wechatpay: http://eurusd.qiniudn.com/wx.jpg
 alipay: http://eurusd.qiniudn.com/zfb.jpg
+
 
 # Automatically Excerpt. Not recommand. false true
 # Please use <!-- more --> in the post to control excerpt accurately.
