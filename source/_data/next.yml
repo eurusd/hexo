@@ -73,7 +73,7 @@ social:
   论坛: http://bbs.eurusd.cn
   行情: http://fx.eurusd.cn
   数据: http://sj.eurusd.cn
-  数据2: http://sj2.eurusd.cn
+  #数据2: http://sj2.eurusd.cn
   #视频: http://www.youku.com/show_page/id_za086d08263f011e4abda.html
 
 # Social Icons
@@ -87,7 +87,7 @@ social_icons:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-creative_commons: by-nc-sa
+#creative_commons: by-nc-sa
 
 
 # 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
