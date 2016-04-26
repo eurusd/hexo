@@ -100,7 +100,7 @@ sitemap:
   path: sitemap.xml
 
 # Swiftype Search Key
-swiftype_key: sQvg8Gucsivs8xjnSVsq
+#swiftype_key: sQvg8Gucsivs8xjnSVsq
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
