@@ -20,18 +20,23 @@ keywords: "EURUSD,EUR/USD,欧元/美元,欧元兑美元,外汇分析,波段交�
 #scheme: Pisces
 scheme: Mist
 
-# Sidebar, available value:
-#  - post    expand on posts automatically. Default.
-#  - always  expand for all pages automatically
-#  - hide    expand only when click on the sidebar toggle icon.
-#sidebar: post
-#sidebar: always
-sidebar: hide
 
-# Automatically Excerpt
-#auto_excerpt:
-  #enable: true
-  #length: 150
+
+sidebar:
+  # Sidebar Position, available value: left | right
+  position: left
+  #position: right
+
+  # Sidebar Display, available value:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggler.
+  display: post
+  #display: always
+  #display: hide
+  #display: remove
+
 
 # 多说帐号
 duoshuo_shortname: eurusd
@@ -65,10 +70,10 @@ avatar: http://eurusd.qiniudn.com/liu.jpg
 
 # 社交链接，将在侧栏中显示
 social:
-  行情: http://fx.eurusd.cn
   论坛: http://bbs.eurusd.cn
+  行情: http://fx.eurusd.cn
   数据: http://sj.eurusd.cn
-  #数据2: http://sj2.eurusd.cn
+  数据2: http://sj2.eurusd.cn
   #视频: http://www.youku.com/show_page/id_za086d08263f011e4abda.html
 
 # Social Icons
@@ -104,8 +109,52 @@ leancloud_visitors:
   app_id: 07LyzviCCsG3FesnInayKkNQ
   app_key: UTDFzniQnN3JvTXOIxMPjGAD
 
-# Use Lato font
-use_font_lato: true
+
+# ---------------------------------------------------------------
+# Font Settings
+# - Find fonts on Google Fonts (https://www.google.com/fonts)
+# - All fonts set here will have the following styles:
+#     light, light italic, normal, normal intalic, bold, bold italic
+# - Be aware that setting too much fonts will cause site running slowly
+# - Introduce in 5.0.1
+# ---------------------------------------------------------------
+font:
+  enable: true
+
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
+  host:
+
+  # Global font settings used on <body> element.
+  global:
+    # external: true will load this font family from host.
+    external: true
+    family: Lato
+
+  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
+  # Fallback to `global` font settings.
+  headings:
+    external: true
+    family:
+
+  # Font settings for posts
+  # Fallback to `global` font settings.
+  posts:
+    external: true
+    family:
+
+  # Font settings for Logo
+  # Fallback to `global` font settings.
+  # The `size` option use `px` as unit
+  logo:
+    external: true
+    family:
+    size:
+
+  # Font settings for <code> and code blocks.
+  code:
+    external: true
+    family:
+
 
 
 # Donate 文章末尾显示打赏按钮
@@ -119,6 +168,7 @@ alipay: http://eurusd.qiniudn.com/zfb.jpg
 auto_excerpt:
   enable: false
   length: 150
+
 # =============================================================================
 # End NexT Theme configuration
 # =============================================================================
