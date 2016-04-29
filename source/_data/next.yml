@@ -112,7 +112,6 @@ leancloud_visitors:
 
 # ---------------------------------------------------------------
 # Font Settings
-# - Find fonts on Google Fonts (https://www.google.com/fonts)
 # - All fonts set here will have the following styles:
 #     light, light italic, normal, normal intalic, bold, bold italic
 # - Be aware that setting too much fonts will cause site running slowly
@@ -128,39 +127,37 @@ font:
   global:
     # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Monda
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
-  headings:
+  heading:
     external: true
     family:
 
   # Font settings for posts
   # Fallback to `global` font settings.
-  posts:
+  post:
     external: true
     family:
 
   # Font settings for Logo
   # Fallback to `global` font settings.
-  # The `size` option use `px` as unit
   logo:
     external: true
-    family:
-    size:
+    family: Lobster Two
+    size: 24
 
   # Font settings for <code> and code blocks.
   code:
     external: true
-    family:
-
+    family: PT Mono
 
 
 # Donate 文章末尾显示打赏按钮
-reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: http://eurusd.qiniudn.com/wx.jpg
-alipay: http://eurusd.qiniudn.com/zfb.jpg
+#reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+#wechatpay: http://eurusd.qiniudn.com/wx.jpg
+#alipay: http://eurusd.qiniudn.com/zfb.jpg
 
 
 # Automatically Excerpt. Not recommand. false true

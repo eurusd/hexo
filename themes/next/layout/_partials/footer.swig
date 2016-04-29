@@ -18,5 +18,3 @@
     NexT
   </a>
 </div>
-
-{% block footer %}{% endblock %}
