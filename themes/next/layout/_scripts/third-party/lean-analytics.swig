@@ -31,6 +31,7 @@
 
             $(element).find(COUNT_CONTAINER_REF).text(time);
           }
+<<<<<<< HEAD
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];
             var element = document.getElementById(url);
@@ -39,6 +40,8 @@
               countSpan.text(0);
             }
           }
+=======
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
         })
         .fail(function (object, error) {
           console.log("Error: " + error.code + " " + error.message);
@@ -69,12 +72,15 @@
             });
           } else {
             var newcounter = new Counter();
+<<<<<<< HEAD
             /* Set ACL */
             var acl = new AV.ACL();
             acl.setPublicReadAccess(true);
             acl.setPublicWriteAccess(true);
             newcounter.setACL(acl);
             /* End Set ACL */
+=======
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
             newcounter.set("title", title);
             newcounter.set("url", url);
             newcounter.set("time", 1);

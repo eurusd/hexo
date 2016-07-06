@@ -5,7 +5,11 @@
     <script type="text/javascript">
       var disqus_shortname = '{{theme.disqus_shortname}}';
       var disqus_identifier = '{{ page.path }}';
+<<<<<<< HEAD
       var disqus_title = "{{ page.title|addslashes }}";
+=======
+      var disqus_title = '{{ page.title }}';
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
       var disqus_url = '{{ page.permalink }}';
 
       function run_disqus_script(disqus_script){
@@ -23,4 +27,8 @@
     </script>
   {% endif %}
 
+<<<<<<< HEAD
 {% endif %}
+=======
+{% endif %}
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b

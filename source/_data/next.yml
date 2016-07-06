@@ -70,15 +70,25 @@ avatar: http://eurusd.qiniudn.com/liu.jpg
 
 # 社交链接，将在侧栏中显示
 social:
+<<<<<<< HEAD
   #论坛: http://bbs.eurusd.cn
   #行情: http://fx.eurusd.cn
   #数据: http://sj.eurusd.cn
+=======
+  论坛: http://bbs.eurusd.cn
+  行情: http://fx.eurusd.cn
+  数据: http://sj.eurusd.cn
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
   #数据2: http://sj2.eurusd.cn
   #视频: http://www.youku.com/show_page/id_za086d08263f011e4abda.html
 
 # Social Icons
 social_icons:
+<<<<<<< HEAD
   enable: true
+=======
+  enable: false
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
   # Icon Mappings
   行情: 
   论坛: 
@@ -91,6 +101,7 @@ social_icons:
 
 
 # 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
+<<<<<<< HEAD
 #baidu_analytics: c6d8e9e82ffb01b38f760c424804a16a
 
 # Tencent analytics ID
@@ -114,6 +125,9 @@ busuanzi_count:
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
 
+=======
+baidu_analytics: c6d8e9e82ffb01b38f760c424804a16a
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 # 站点起始时间
 since: 2000
@@ -122,7 +136,11 @@ sitemap:
   path: sitemap.xml
 
 # Swiftype Search Key
+<<<<<<< HEAD
 swiftype_key: sQvg8Gucsivs8xjnSVsq
+=======
+#swiftype_key: sQvg8Gucsivs8xjnSVsq
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.

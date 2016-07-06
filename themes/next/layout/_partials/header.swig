@@ -36,7 +36,11 @@
         <li class="menu-item menu-item-{{ itemName }}">
           <a href="{{ url_for(path) }}" rel="section">
             {% if theme.menu_icons.enable %}
+<<<<<<< HEAD
               <i class="menu-item-icon fa fa-fw fa-{{theme.menu_icons[itemName] | default('question-circle') | lower }}"></i> <br />
+=======
+              <i class="menu-item-icon fa fa-{{theme.menu_icons[itemName] || 'question-circle'}} fa-fw"></i> <br />
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
             {% endif %}
             {{ __('menu.' + itemName) }}
           </a>
@@ -46,9 +50,15 @@
       {% if hasSearch %}
         <li class="menu-item menu-item-search">
           {% if theme.swiftype_key %}
+<<<<<<< HEAD
             <a href="javascript:;" class="st-search-show-outputs">
           {% elseif config.search %}
             <a href="javascript:;" class="popup-trigger">
+=======
+            <a href="#" class="st-search-show-outputs">
+          {% elseif config.search %}
+            <a href="#" class="popup-trigger">
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
           {% endif %}
             {% if theme.menu_icons.enable %}
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />

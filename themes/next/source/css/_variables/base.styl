@@ -71,6 +71,7 @@ $font-family-logo         = $font-family-base
 $font-family-logo         = get_font_family('logo'), $font-family-base if get_font_family('logo')
 
 $font-family-headings     = $font-family-base
+<<<<<<< HEAD
 $font-family-headings     = get_font_family('headings'), $font-family-base if get_font_family('headings')
 
 $font-family-posts        = $font-family-base
@@ -78,6 +79,15 @@ $font-family-posts        = get_font_family('posts'), $font-family-base if get_f
 
 $font-family-monospace    = consolas, Menlo, $font-family-chinese, monospace
 $font-family-monospace    = get_font_family('codes'), consolas, Menlo, $font-family-chinese, monospace if get_font_family('codes')
+=======
+$font-family-headings     = get_font_family('heading'), $font-family-base if get_font_family('heading')
+
+$font-family-posts        = $font-family-base
+$font-family-posts        = get_font_family('post'), $font-family-base if get_font_family('post')
+
+$font-family-monospace    = consolas, Menlo, $font-family-chinese, monospace
+$font-family-monospace    = get_font_family('code'), consolas, Menlo, $font-family-chinese, monospace if get_font_family('code')
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 $font-family-icons        = 'FontAwesome'
 
@@ -101,6 +111,7 @@ $font-size-larger         = $font-size-base + 4px
 // Headings font size
 $font-size-headings-step    = 2px
 $font-size-headings-base    = 24px
+<<<<<<< HEAD
 $font-size-headings-small   = $font-size-headings-base - $font-size-headings-step
 $font-size-headings-smaller = $font-size-headings-small - $font-size-headings-step
 $font-size-headings-large   = $font-size-headings-base + $font-size-headings-step
@@ -109,11 +120,25 @@ $font-size-headings-larger  = $font-size-headings-large + $font-size-headings-st
 // Global line height
 $line-height-base           = 2
 $line-height-code-block     = 1.6  // Can't be less than 1.3
+=======
+$font-size-headings-small   = $font-size-headings-base - $font-size-headings-step;
+$font-size-headings-smaller = $font-size-headings-small - $font-size-headings-step;
+$font-size-headings-large   = $font-size-headings-base + $font-size-headings-step;
+$font-size-headings-larger  = $font-size-headings-large + $font-size-headings-step;
+
+// Global line height
+$line-height-base         = 2
+$line-height-code-block   = 1.6  // Can't be less than 1.3
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 
 
 // Z-index master list
 // --------------------------------------------------
+<<<<<<< HEAD
+=======
+
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 $zindex-bottom  = -1
 $zindex-1       = 1010
 $zindex-2       = 1020
@@ -141,17 +166,26 @@ $table-row-hover-bg-color       = $whitesmoke
 
 // Code & Code Blocks
 // --------------------------------------------------
+<<<<<<< HEAD
 $code-font-family               = $font-family-monospace
 $code-font-size                 = 13px
 $code-background                = $gainsboro
 $code-foreground                = $black-light
 $code-border-radius             = 4px
+=======
+$code-font-family = $font-family-monospace
+$code-font-size = 13px
+$code-background = $gainsboro
+$code-foreground = $black-light
+$code-border-radius = 4px
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 
 
 // Buttons
 // --------------------------------------------------
 
+<<<<<<< HEAD
 $btn-font-weight                = normal
 
 $btn-default-radius             = 0
@@ -163,13 +197,30 @@ $btn-default-border-color       = $black-deep
 $btn-default-hover-bg           = white
 $btn-default-hover-color        = $black-deep
 $btn-default-hover-border-color = $black-deep
+=======
+$btn-font-weight =  normal
+
+$btn-default-radius              = 0
+$btn-default-bg                  = $black-deep
+$btn-default-color               = white
+$btn-default-font-size           = 14px
+$btn-default-border-width        = 2px
+$btn-default-border-color        = $black-deep
+$btn-default-hover-bg            = white
+$btn-default-hover-color         = $black-deep
+$btn-default-hover-border-color  = $black-deep
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 
 
 // Pagination
 // --------------------------------------------------
 
+<<<<<<< HEAD
 $pagination-border              = $gainsboro
+=======
+$pagination-border              = $gainsboro;
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 $pagination-link-bg             = transparent
 $pagination-link-color          = $link-color
@@ -205,8 +256,13 @@ $gap-between-main-and-footer    = 100px
 
 // Headband
 // --------------------------------------------------
+<<<<<<< HEAD
 $headband-height                = 3px
 $headband-bg                    = $black-deep
+=======
+$headband-height = 3px
+$headband-bg     = $black-deep
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 
 
@@ -214,6 +270,7 @@ $headband-bg                    = $black-deep
 // Variables for header section elements.
 // --------------------------------------------------
 
+<<<<<<< HEAD
 $head-bg                        = white
 
 // Site Meta
@@ -238,10 +295,33 @@ $menu-link-hover-border         = $black-deep
 // Posts Expand
 // --------------------------------------------------
 $posts-expand-title-font-weight = $font-weight-normal
+=======
+$head-bg                = white
+
+// Site Meta
+$site-meta-text-align   = center
+$brand-color            = white
+$brand-hover-color      = white
+$brand-bg               = $black-deep
+
+$logo-font-size         = 20px
+$logo-font-size         = unit(hexo-config('font.logo.size'), px) if hexo-config('font.logo.size') is a 'unit'
+
+$site-subtitle-color    = $grey-dark
+$subtitle-font-size     = 13px
+$subtitle-color         = $grey-dark
+
+// Menu
+$menu-link-border       = transparent
+$menu-link-hover-border = $black-deep
+
+
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 
 // Posts Collpase
 // --------------------------------------------------
+<<<<<<< HEAD
 $posts-collapse-left            = 55px
 $posts-collapse-left-mobile     = 5px
 
@@ -249,6 +329,15 @@ $read-more-color                = white
 $read-more-font-size            = 14px
 $read-more-bg-color             = $black-deep
 $read-more-border-radius        = 0
+=======
+$posts-collapse-left        = 55px
+$posts-collapse-left-mobile = 5px
+
+$read-more-color          = white
+$read-more-font-size      = 14px
+$read-more-bg-color       = $black-deep
+$read-more-border-radius  = 0
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 
 
@@ -256,6 +345,7 @@ $read-more-border-radius        = 0
 // Sidebar
 // Variables for sidebar section elements.
 // --------------------------------------------------
+<<<<<<< HEAD
 $sidebar-nav-color                    = $black-light
 $sidebar-nav-hover-color              = $whitesmoke
 $sidebar-highlight                    = $blue-bright
@@ -282,6 +372,22 @@ $site-state-item-count-color          = inherit
 $site-state-item-name-font-size       = 13px
 $site-state-item-name-color           = inherit
 $site-state-item-border-color         = $black-dim
+=======
+$sidebar-nav-color                = $black-light
+$sidebar-nav-hover-color          = $whitesmoke
+$sidebar-highlight                = $blue-bright
+
+$site-author-name-color           = $whitesmoke
+
+$site-description-font-size       = 14px
+$site-description-color           = $black-light
+
+$site-state-item-count-font-size  = 18px
+$site-state-item-count-color      = inherit
+$site-state-item-name-font-size   = 13px
+$site-state-item-name-color       = inherit
+$site-state-item-border-color     = $black-dim
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 $toc-link-color                       = $grey-dark
 $toc-link-border-color                = $black-light
@@ -307,9 +413,15 @@ $b2t-bg-color                 = $black-deep
 
 
 //  .post-expand .post-eof
+<<<<<<< HEAD
 //  In Muse scheme, margin above and below the post separator
 $post-eof-margin-top          = 80px  //  or 160px for more white space
 $post-eof-margin-bottom       = 60px  //  or 120px for less white space
+=======
+//  In the default (Mist) scheme, margin above and below the post separator
+$post-eof-margin-top    = 80px  //  or 160px for more white space
+$post-eof-margin-bottom = 60px  //  or 120px for less white space
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 
 // Iconography
@@ -317,5 +429,13 @@ $post-eof-margin-bottom       = 60px  //  or 120px for less white space
 // --------------------------------------------------
 
 // blockquote-center icon
+<<<<<<< HEAD
 $center-quote-left            = '../images/quote-l.svg'
 $center-quote-right           = '../images/quote-r.svg'
+=======
+$center-quote-left  = '../images/quote-l.svg'
+$center-quote-right = '../images/quote-r.svg'
+
+// search icon
+$search-icon = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTZweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE2IDE2OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTYgMTYiIHdpZHRoPSIxNnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMTUuNywxNC4zbC0zLjEwNS0zLjEwNUMxMy40NzMsMTAuMDI0LDE0LDguNTc2LDE0LDdjMC0zLjg2Ni0zLjEzNC03LTctN1MwLDMuMTM0LDAsN3MzLjEzNCw3LDcsNyAgYzEuNTc2LDAsMy4wMjQtMC41MjcsNC4xOTQtMS40MDVMMTQuMywxNS43YzAuMTg0LDAuMTg0LDAuMzgsMC4zLDAuNywwLjNjMC41NTMsMCwxLTAuNDQ3LDEtMUMxNiwxNC43ODEsMTUuOTQ2LDE0LjU0NiwxNS43LDE0LjN6ICAgTTIsN2MwLTIuNzYyLDIuMjM4LTUsNS01czUsMi4yMzgsNSw1cy0yLjIzOCw1LTUsNVMyLDkuNzYyLDIsN3oiLz48L3N2Zz4="
+>>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
