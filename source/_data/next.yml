@@ -90,10 +90,6 @@ avatar: http://eurusd.qiniudn.com/liu.jpg
 # 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
 #baidu_analytics: c6d8e9e82ffb01b38f760c424804a16a
 
-# 腾讯统计
-# Tencent analytics ID
-tencent_analytics: 500149761
-
 # ---------------------------------------------------------------
 # 站点起始时间
 since: 2000
