@@ -33,8 +33,9 @@ page:
   tags: 标签
 
 footer:
-  powered: "Powered by %s"
-  theme: Theme
+  powered: "由 %s 强力驱动"
+  theme: 主题
+
 
 counter:
   tag_cloud:
