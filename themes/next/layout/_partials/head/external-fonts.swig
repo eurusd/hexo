@@ -10,35 +10,20 @@
     {% set font_found = true %}
   {% endif %}
 
-<<<<<<< HEAD
   {% if font_config.headings.family and font_config.headings.external %}
-=======
-  {% if font_config.heading.family and font_config.heading.external %}
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
     {% if font_found %}
       {% set font_families += '|' %}
     {% endif %}
 
-<<<<<<< HEAD
     {% set font_families += font_config.headings.family + font_styles %}
   {% endif %}
 
   {% if font_config.posts.family and font_config.posts.external %}
-=======
-    {% set font_families += font_config.heading.family + font_styles %}
-  {% endif %}
-
-  {% if font_config.post.family and font_config.post.external %}
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
     {% if font_found %}
       {% set font_families += '|' %}
     {% endif %}
 
-<<<<<<< HEAD
     {% set font_families += font_config.posts.family + font_styles %}
-=======
-    {% set font_families += font_config.post.family + font_styles %}
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
   {% endif %}
 
   {% if font_config.logo.family and font_config.logo.external %}
@@ -49,20 +34,12 @@
     {% set font_families += font_config.logo.family + font_styles %}
   {% endif %}
 
-<<<<<<< HEAD
   {% if font_config.codes.family and font_config.codes.external %}
-=======
-  {% if font_config.code.family and font_config.code.external %}
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
     {% if font_found %}
       {% set font_families += '|' %}
     {% endif %}
 
-<<<<<<< HEAD
     {% set font_families += font_config.codes.family + font_styles %}
-=======
-    {% set font_families += font_config.code.family + font_styles %}
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
   {% endif %}
 
   {% if font_families !== '' %}

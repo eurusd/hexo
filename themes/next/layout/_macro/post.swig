@@ -183,25 +183,15 @@
         {{ post.content }}
       {% endif  %}
     </div>
-<<<<<<< HEAD
 
     <div>
       {% if not is_index %}
-=======
-    
-    <div>
-      {% if ! is_index %}
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
         {% include 'wechat-subscriber.swig' %}
       {% endif %}
     </div>
 
     <div>
-<<<<<<< HEAD
       {% if not is_index %}
-=======
-      {% if ! is_index %}
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
         {% include 'reward.swig' %}
       {% endif %}
     </div>

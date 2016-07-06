@@ -24,28 +24,20 @@
 
 
 {% if theme.fancybox %}
-<<<<<<< HEAD
   {% set fancybox_css_uri = url_for(theme.vendors._internal + '/fancybox/source/jquery.fancybox.css?v=2.1.5') %}
   {% if theme.vendors.fancybox_css %}
     {% set fancybox_css_uri = theme.vendors.fancybox_css %}
   {% endif %}
   <link href="{{ fancybox_css_uri }}" rel="stylesheet" type="text/css" />
-=======
-  <link href="{{ url_for(theme.vendors._internal) }}/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 {% endif %}
 
 {% include "./head/external-fonts.swig" %}
 
-<<<<<<< HEAD
 {% set font_awesome_uri = url_for(theme.vendors._internal + '/font-awesome/css/font-awesome.min.css?v=4.4.0') %}
 {% if theme.vendors.fontawesome %}
   {% set font_awesome_uri = theme.vendors.fontawesome %}
 {% endif %}
 <link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
-=======
-<link href="{{ url_for(theme.vendors._internal) }}/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 <link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
 
@@ -101,12 +93,9 @@
     }
   };
 </script>
-<<<<<<< HEAD
 
 
 {# Canonical, good for google search engine (SEO) : https://support.google.com/webmasters/answer/139066 #}
 {% if theme.canonical %}
   <link rel="canonical" href="{{ config.url }}/{{ page.canonical_path.replace('index.html', '') }}"/>
 {% endif %}
-=======
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b

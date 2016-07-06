@@ -13,14 +13,8 @@
 </div>
 
 <div class="theme-info">
-<<<<<<< HEAD
   {{ __('footer.theme') }} -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.{{ theme.scheme }}
-=======
-  {{ __('footer.theme') }} by
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
   </a>
 </div>

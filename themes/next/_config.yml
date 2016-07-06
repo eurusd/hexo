@@ -16,14 +16,10 @@ rss:
 # Specify the date when the site was setup
 #since: 2015
 
-<<<<<<< HEAD
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
 # Tips: Before you open this tag, remeber set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
 canonical: true
-=======
-
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 
 # ---------------------------------------------------------------
@@ -109,11 +105,7 @@ font:
     size:
 
   # Font settings for <code> and code blocks.
-<<<<<<< HEAD
   codes:
-=======
-  code:
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
     external: true
     family:
 
@@ -298,7 +290,6 @@ facebook_sdk:
   like_button:  #true
   webmaster:    #true
 
-<<<<<<< HEAD
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
@@ -306,8 +297,6 @@ facebook_comments_plugin:
   enable: false
   num_of_posts: 10
 
-=======
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
@@ -367,7 +356,6 @@ vendors:
   jquery:
 
   # Internal version: 2.1.5
-<<<<<<< HEAD
   # http://fancyapps.com/fancybox/
   fancybox:
   fancybox_css:
@@ -396,25 +384,6 @@ vendors:
   # http://fontawesome.io/
   fontawesome:
 
-=======
-  fancybox:
-
-  # Internal version: 1.0.6
-  fastclick:
-
-  # Internal version: 1.9.7
-  lazyload:
-
-  # Internal version: 1.2.1
-  velocity:
-
-  # Internal version: 1.2.1
-  velocity_ui:
-
-  # Internal version: 0.7.9
-  ua_parser:
-
->>>>>>> a0f3df58c81c6b0eb637beabab4b7b52b8af875b
 
 # Assets
 css: css
