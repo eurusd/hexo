@@ -1,0 +1,170 @@
+# =============================================================================
+# NexT Theme configuration
+# =============================================================================
+# when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
+menu:
+  home: /
+  categories: /categories
+  archives: /archives
+  tags: /tags
+  about: /about
+  #commonweal: /404.html
+
+# Place your favicon.ico to /source directory.
+favicon: /favicon.ico
+
+# Set default keywords (Use a comma to separate)
+keywords: "EURUSD,EUR/USD,欧元/美元,欧元兑美元,外汇分析,波段交易"
+
+# Schemes
+#scheme: Pisces
+scheme: Mist
+
+
+
+sidebar:
+  # Sidebar Position, available value: left | right
+  position: left
+  #position: right
+
+  # Sidebar Display, available value:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggler.
+  display: post
+  #display: always
+  #display: hide
+  #display: remove
+
+
+# 多说帐号
+duoshuo_shortname: eurusd
+
+# 多说 分享服务（必须启用多说）
+duoshuo_share: true
+
+#disqus_shortname: eurusdcn
+
+## 多说热评文章 
+duoshuo_hotartical: false
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info:
+  ua_enable: true
+  admin_enable: true
+  user_id: 5106199
+  admin_nickname: 博主
+
+# 百度分享左侧菜单栏，关闭则设置为 false
+## 若想要自定义可以参考官网http://share.baidu.com/，修改theme/next/layout/_scripts/baidushare.swig
+baidushare: false
+
+# JiaThis 分享服务
+#jiathis: true
+
+# 头象
+avatar: http://eurusd.qiniudn.com/liu.jpg
+
+# 社交链接，将在侧栏中显示
+social:
+  #论坛: http://bbs.eurusd.cn
+  #行情: http://fx.eurusd.cn
+  #数据: http://sj.eurusd.cn
+  #数据2: http://sj2.eurusd.cn
+  #视频: http://www.youku.com/show_page/id_za086d08263f011e4abda.html
+
+# Social Icons
+social_icons:
+  enable: true
+  # Icon Mappings
+  行情: 
+  论坛: 
+  数据: 
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+#creative_commons: by-nc-sa
+
+
+# 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
+baidu_analytics: c6d8e9e82ffb01b38f760c424804a16a
+
+# 站点起始时间
+since: 2000
+
+sitemap:
+  path: sitemap.xml
+
+# Swiftype Search Key
+swiftype_key: sQvg8Gucsivs8xjnSVsq
+
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: true
+  app_id: 07LyzviCCsG3FesnInayKkNQ
+  app_key: UTDFzniQnN3JvTXOIxMPjGAD
+
+
+# ---------------------------------------------------------------
+# Font Settings
+# - All fonts set here will have the following styles:
+#     light, light italic, normal, normal intalic, bold, bold italic
+# - Be aware that setting too much fonts will cause site running slowly
+# - Introduce in 5.0.1
+# ---------------------------------------------------------------
+font:
+  enable: true
+
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default) fonts.useso.com
+  host: fonts.googleapis.com
+
+  # Global font settings used on <body> element.
+  global:
+    # external: true will load this font family from host.
+    external: true
+    family: Monda
+
+  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
+  # Fallback to `global` font settings.
+  heading:
+    external: true
+    family:
+
+  # Font settings for posts
+  # Fallback to `global` font settings.
+  post:
+    external: true
+    family:
+
+  # Font settings for Logo
+  # Fallback to `global` font settings.
+  logo:
+    external: true
+    family: Lobster Two
+    size: 24
+
+  # Font settings for <code> and code blocks.
+  code:
+    external: true
+    family: PT Mono
+
+
+# Donate 文章末尾显示打赏按钮
+#reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+#wechatpay: http://eurusd.qiniudn.com/wx.jpg
+#alipay: http://eurusd.qiniudn.com/zfb.jpg
+
+# Automatically Excerpt. Not recommand. false true
+# Please use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enable: false
+  length: 150
+
+# =============================================================================
+# End NexT Theme configuration
+# =============================================================================
