@@ -55,17 +55,17 @@ social:
 social_icons:
   enable: true
  # Icon Mappings 
-  论坛: 
-  行情: 
-  数据: 
-  日历:
+  论坛: comments-o
+  行情: line-chart
+  数据: calendar-check-o
+  日历: calendar
 
 # ---------------------------------------------------------------
 # 版权
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-creative_commons: by-nc-sa
+#creative_commons: by-nc-sa
 
 # ---------------------------------------------------------------
 # 多说帐号
