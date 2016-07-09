@@ -54,17 +54,18 @@ social:
 # Social Icons 图标
 social_icons:
   enable: true
- # Icon Mappings
-  行情: 
+ # Icon Mappings 
   论坛: 
+  行情: 
   数据: 
+  日历:
 
 # ---------------------------------------------------------------
 # 版权
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
+creative_commons: by-nc-sa
 
 # ---------------------------------------------------------------
 # 多说帐号
