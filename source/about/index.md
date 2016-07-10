@@ -29,7 +29,7 @@ comments: false
 
 ##### 联系方式：
 
-邮箱 fx@eurusd.cn | 论坛 bbs.eurusd.cn | 数据 sj.eurusd.cn | 行情 fx.eurusd.cn
+邮箱 fx@eurusd.cn | 论坛 bbs.eurusd.cn | 行情 fx.eurusd.cn | 数据 sj.eurusd.cn | 日历: rl.eurusd.cn
 
 ----------
 

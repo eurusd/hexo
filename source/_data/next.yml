@@ -46,17 +46,16 @@ sidebar:
 # Social links 链接
 social:
   论坛: http://bbs.eurusd.cn
-  行情: http://fx.eurusd.cn
+  图表: http://fx.eurusd.cn
   数据: http://sj.eurusd.cn
-  日历: http://sj2.eurusd.cn
-  #视频: http://www.youku.com/show_page/id_za086d08263f011e4abda.html
+  日历: http://rl.eurusd.cn
 
 # Social Icons 图标
 social_icons:
   enable: true
  # Icon Mappings 
-  论坛: comments-o
-  行情: line-chart
+  论坛: comment-o
+  图表: line-chart
   数据: calendar-check-o
   日历: calendar
 
