@@ -21,15 +21,16 @@ comments: false
 
 ##### 技术方法：
 
+道氏理论，江恩理论，缠论，循环周期。
 对称原理：时间对称，空间对称，形态对称。
-段落画分：高低点划分段落，次高次底点划分段落，放量K线划分段落，破位K线划分段落，跳空缺口划分段落.
+段落画分：高低点划分段落，次高次底点划分段落，放量K线划分段落，破位K线划分段落，跳空缺口划分段落。
 
 ----------
 
 
 ##### 联系方式：
 
-邮箱 fx@eurusd.cn | 论坛 bbs.eurusd.cn | 行情 fx.eurusd.cn | 数据 sj.eurusd.cn | 日历: rl.eurusd.cn
+邮箱 fx@eurusd.cn | 日历: rl.eurusd.cn | 图表 fx.eurusd.cn | 论坛 bbs.eurusd.cn 
 
 ----------
 
