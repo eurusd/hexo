@@ -78,7 +78,7 @@ duoshuo_share: true
 duoshuo_info:
   ua_enable: true
   admin_enable: true
-  user_id: 5106199
+  user_id: 6219894086137021000
   admin_nickname: 博主
 
 # ---------------------------------------------------------------
@@ -154,12 +154,7 @@ font:
     family: PT Mono
 
 # ---------------------------------------------------------------
-# 设置JavaScript第三方库
-# Script Vendors.
-# Set a CDN address for the vendor you want to customize.
-# For example
-#    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
-# Be aware that you should use the same version as internal ones to avoid potential problems.
+# JavaScript 第三方库
 vendors:
   # Internal path prefix. Please do not edit it.
   _internal: vendors
@@ -190,7 +185,6 @@ vendors:
   # Internal version: 4.4.0
   # http://fontawesome.io/
   fontawesome: //maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css
-
 # =============================================================================
 # End NexT Theme configuration
 # =============================================================================
