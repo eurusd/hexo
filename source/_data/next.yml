@@ -48,18 +48,15 @@ social:
   日历: http://rl.eurusd.cn
   图表: http://fx.eurusd.cn
   论坛: http://bbs.eurusd.cn
-  视频: http://www.youku.com/show_page/id_zc52091ee8c2b11e5be16.html
-
+  
 # Social Icons 图标
 social_icons:
   enable: true
  # Icon Mappings 
   日历: calendar
   图表: line-chart
-  论坛: group
-  视频: play
+  论坛: comment-o
   
-
 # ---------------------------------------------------------------
 # 版权
 # Creative Commons 4.0 International License.
