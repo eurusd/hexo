@@ -46,17 +46,17 @@ sidebar:
 # Social links 链接
 social:
   日历: http://rl.eurusd.cn
-  图表: http://fx.eurusd.cn
+  行情: http://fx.eurusd.cn
   论坛: http://bbs.eurusd.cn
-  #视频: http://wpa.qq.com/msgrd?v=3&uin=1739845487&site=qq&menu=yes
+  评论: http://www.cctvfinance.com/extend/di1pLTI1LTAt.html
 # Social Icons 图标
 social_icons:
   enable: true
  # Icon Mappings 
   日历: calendar
-  图表: line-chart
+  行情: line-chart
   论坛: comment-o
-  #视频: qq
+  评论: commenting-o
 # ---------------------------------------------------------------
 # 版权
 # Creative Commons 4.0 International License.
